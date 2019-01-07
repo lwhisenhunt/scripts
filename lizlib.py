@@ -14,7 +14,8 @@ def affirmation():
         "Don't worry",
         "Be Encouraging",
         "Set Goals",
-        "Be your Best"
+        "Be your Best",
+        "Don't spill your sprite"
     ]
     print(affirmations[num])
     os.system("say '{}'".format(affirmations[num]))
@@ -27,7 +28,8 @@ def word_of_the_day():
         "today",
         "sunshine",
         "video",
-        "turner"
+        "turner",
+        "sprite"
     ]
     print(words[word])
 # word_of_the_day()
