@@ -50,7 +50,7 @@ import time
 name = input('Hello, Welcome to Game of Sums!!  What is your name? ')
 start_time = datetime.now()
 print(start_time)
-RANGE_OF_QUESTIONS = 5
+RANGE_OF_QUESTIONS = 10
 for x in range(10):
     a = randint(1,RANGE_OF_QUESTIONS)
     b = randint(1,RANGE_OF_QUESTIONS)
